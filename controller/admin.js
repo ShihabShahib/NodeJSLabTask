@@ -17,5 +17,9 @@ router.post('/', function(req, res){
 router.get('/addemployee',function(req,res){
     res.render('addemployee');
 });
+router.get('/employeelist',function(req,res){
+    res.render('employeelist');
+});
+
 
 module.exports=router;
